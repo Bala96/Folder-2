@@ -1,0 +1,69 @@
+<!--RESPONSIVE WEBSITES-->
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name ="viewport" content="width = device-width, intial-scale =1"> 
+<title>Bootstrap Tutorial</title>
+<link rel"stylesheet" type ="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 clo-xs-12">
+				<h4>Column 1</h4>
+				Marshall Bruce Mathers III, known professionally as Eminem, is an American rapper, songwriter, record producer, and actor from Detroit, Michigan. Wikipedia
+				Born: October 17, 1972 (age 43), Saint Joseph, Missouri, United States
+				Children: Hailie Jade, Alaina Marie Mathers, Whitney Scott Mathers
+				Spouse: Kimberly Anne Scott (m. 2006–2006), Kimberly Anne Scott (m. 1999–2001)
+				
+				Holly Brook Hafermann, who goes by the stage name Skylar Grey, is an American singer and songwriter from Mazomanie, Wisconsin. Wikipedia
+				Born: February 23, 1986 (age 30), Mazomanie, Wisconsin, United States
+				Siblings: Tiffany Hafermann
+				Parents: Candace Krietlow, Gene Roger Hafermann
+				
+				Miles Dewey Davis III was an American jazz musician, bandleader, and composer. Widely considered one of the most influential and innovative musicians of the 20th century, Davis was, together with his ... Wikipedia
+				Born: May 26, 1926, Alton, Illinois, United States
+				Died: September 28, 1991, Santa Monica, California, United States
+				Spouse: Cicely Tyson (m. 1981–1988), Betty Davis (m. 1968–1969), Frances Davis (m. 1958–1968)
+				Movies: Scrooged, Dingo, Miles Davis: Live in Munich, Miles Davis: That's What Happened: Live in Germany 1987
+				Influenced by: Dizzy Gillespie, Charlie Parker, Jimi Hendrix, Gil Evans, Claude Debussy, Jack Johnson
+			</div>
+			<div class="col-lg-3 col-md-3 col-xs-12">
+				<h4>Column 2</h4>
+				Raymond Charles Robinson, professionally known as Ray Charles, was an American singer, songwriter, musician, and composer. He was sometimes referred to as "The Genius", and was also nicknamed "The High Priest of Soul". Wikipedia
+				Died: June 10, 2004, Beverly Hills, California, United States
+				Children: Sheila Raye Charles, Ryan Corey Robinson, more
+				Spouse: Della Beatrice Howard Robinson (m. 1955–1977), Eileen Williams (m. 1951–1952)
+
+				Nina Simone was an American singer, songwriter, pianist, arranger, and civil rights activist who worked in a broad range of musical styles including classical, jazz, blues, folk, RandB, gospel, and pop. Wikipedia
+				Died: April 21, 2003, Carry-le-Rouet, France
+				Children: Simone
+				Movies: A Nightingale Sang: Tribute to Nat King Cole, more
+			</div>
+			<div class = "clearfix visible-sm"></div>
+			<div class="col-lg-3 col-md-3 col-xs-12">
+				<h4>Column 3</h4>
+				Wolfgang Amadeus Mozart, baptised as Johannes Chrysostomus Wolfgangus Theophilus Mozart, was a prolific and influential composer of the Classical era, born in Salzburg. Mozart showed prodigious ability from his earliest childhood. Wikipedia
+				Died: December 5, 1791, Vienna, Austria
+				Influenced: Ludwig van Beethoven
+				Influenced by: Johann Sebastian Bach, Joseph Haydn, George Frideric Handel, Carl Philipp Emanuel Bach, Michael Haydn
+
+
+			</div>
+			<div class="col-lg-3 col-md-3 col-xs-12">
+				<h4>Column 4</h4>
+				Alfredo James "Al" Pacino is an American actor of stage and screen, filmmaker, and screenwriter. Pacino has had a career spanning fifty years, during which time he has received numerous accolades and ... Wikipedia
+				Born: April 25, 1940 (age 76), East Harlem, New York City, New York, United States
+				Height: 1.7 m
+				Children: Julie Marie Pacino, Anton James Pacino, Olivia Pacino
+				Parents: Sal Pacino, Rose Gerard Pacino
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!-- bootstrap uses a 12 clm system-->
