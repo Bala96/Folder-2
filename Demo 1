@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset = "UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- the http-equiv is to tell the the browser to use the latest rendering engine
+-->
+<meta name ="viewport" content="width = device-width, intial-scale =1"> <!-- this meta is put to set the zoom  level n width of the website-->
+<title>Bootstrap Tutorial</title>
+
+<link rel"stylesheet" type ="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+<style>
+.jumbotron{
+	background-color:#2E2D88;
+	color:white;
+}
+/*Adds Border for tabs*/
+.tab-content{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+.nav-tabs{
+	margin-bottom: 0;
+}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Bootstrap Tutorial</h1>
+		</div>
+		<div class="jumbotron">
+			<p>Eminem is the greatest rapper of all time, the true god of rap, with impeccable lyrical fluency, proper rythm and ryme and the most original lyrics
+			</p>
+			<p>
+				<a href="#" class="btn btn-default btn-lg" role="button">MoreInfo</a>
+				<button type="submit" class="btn btn-danger" role="button">Button</button> <!--the btn-danger is just a diff color-->
+				<input type="button" value="Info" class="btn btn-info">
+				<button type="submit" class = "btn-primary btn-sm">Primary</button>
+				<button type="submit" class = "btn btn-success btn-xs">Success</button>
+				<button type="submit" class = "btn btn-warning btn-lg">Warning</button>
+				<button type="submit" class = "btn btn-link btn-lg">Link</button>
+				<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button> <!--To disable buttons-->
+				<a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+				<!--following : a group of buttons-->
+				<div class="btn-grp btn-group-lg" role="group">
+					<button type="button" class="btn btn-default">Small</button>
+					<button type="button" class="btn btn-default">Medium</button>
+					<button type="button" class="btn btn-default">Large</button>
+				</div>
+			</p>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
+<!-- the http-equiv is to tell the the browser to use the latest rendering engine
+-->
+<!-- the first <a> tag is used to insert a link and call in the button class
+  (btn - button, btn-default the default setting of the class, btn-lg is button large)-->
+<!-- role is used for people using screen readers-->
