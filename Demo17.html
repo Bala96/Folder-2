@@ -1,0 +1,61 @@
+<!--DIFFERENT TYPES OF INTERFACES-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, intial-scale=1">
+<title>BOOTSTRAP TUTORIAL</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<style>
+.jumbotron{
+	background-color: #2E2D88;
+	color: white;
+}
+/*Adds Borders for tabs*/
+.tab-content{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+.nav_tabs{
+	margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#batman">BATMAN</a></li>
+			<li><a href="#wonderwoman">WONDERWOMAN</a></li>
+			<li><a href="#superman">SUPERMAN</a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">FLASH<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li class="disabled"><a href="#flash">THE FLASH</a></li>
+				<li><a data-toggle="tab" href="#kidflash">KID FLASH</a></li>
+			</ul>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div id="batman" class="tab-pane fade in active">
+				<p>BATMAN is an amazing superhero with true grit and hes the saviour GOTHAM CITY. He's the best superhero ever created</p>
+			</div>
+			<div id="wonderwoman" class="tab-pane fade">
+				<p>WONDER WOMAN is also awesome shes the first lead female suphero created by the DC universe. Shes from the Amazon and shes really strong</p>
+			</div>
+			<div id="superman" class="tab-pane fade">
+				<p>Superman is a hero of sorts, hes a pompous irritating prick and one of my least favourites, and hes no match for batman</p>
+			</div>
+			<div id="flash" class="tab-pane fade">
+				<p>FLASH is a superhero because hes a speedster</p>
+			</div>
+			<div id="kidflash" class="tab-pane fade">
+				<p>He's the kids version of flash</p>
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
